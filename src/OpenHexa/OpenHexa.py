@@ -39,6 +39,9 @@ class DagRun:
         self._url = OH._url
         self._http_headers = {"Authorization": "Bearer %s" % OH._token}
 
+    def simulated(self) -> bool:
+        return self._fake
+
     def log_message(self, priority: str, message: str) -> bool:
         valid_prio = ['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL']
         if priority not in valid_prio:
