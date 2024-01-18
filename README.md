@@ -1,3 +1,7 @@
+⚠️ This is the code for a previous, deprecated version of our pipelines engine.
+
+Please use https://github.com/BLSQ/openhexa-sdk-python.
+
 # OpenHexa SDK
 
 - Interact with OpenHexa backend from notebooks and pipelines
